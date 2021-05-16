@@ -1,8 +1,8 @@
 #pragma once
-#include "..\QueryBase.h"
-#include "..\TextQuery.h"
-#include "..\QueryResult.h"
-#include "..\Query.h"
+#include "..\QueryBase.hpp"
+#include "..\TextQuery.hpp"
+#include "..\QueryResult.hpp"
+#include "..\Query.hpp"
 #include <memory>
 
 class WordQuery: public QueryBase{

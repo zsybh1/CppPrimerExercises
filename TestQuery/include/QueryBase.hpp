@@ -1,6 +1,6 @@
 #pragma once
-#include "TextQuery.h"
-#include "QueryResult.h"
+#include "TextQuery.hpp"
+#include "QueryResult.hpp"
 
 class QueryBase{
 public:

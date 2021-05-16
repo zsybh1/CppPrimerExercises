@@ -5,7 +5,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "QueryResult.h"
+#include "QueryResult.hpp"
 
 class TextQuery{
 public:

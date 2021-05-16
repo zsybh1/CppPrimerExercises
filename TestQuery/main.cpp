@@ -1,10 +1,10 @@
 #include <iostream>
-#include "TextQuery.h"
-#include "Query.h"
+#include "TextQuery.hpp"
+#include "Query.hpp"
 #include <fstream>
-#include "QueryType/AndQuery.h"
-#include "QueryType/OrQuery.h"
-#include "QueryType/NotQuery.h"
+#include "QueryType/AndQuery.hpp"
+#include "QueryType/OrQuery.hpp"
+#include "QueryType/NotQuery.hpp"
 
 using namespace std;
 

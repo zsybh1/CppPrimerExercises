@@ -1,9 +1,9 @@
 #pragma once
 #include <memory>
-#include "QueryBase.h"
-#include "QueryResult.h"
-#include "TextQuery.h"
-#include "QueryType/WordQuery.h"
+#include "QueryBase.hpp"
+#include "QueryResult.hpp"
+#include "TextQuery.hpp"
+#include "QueryType/WordQuery.hpp"
 #include <string>
 
 class Query{
