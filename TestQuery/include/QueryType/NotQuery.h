@@ -16,7 +16,7 @@ public:
 };
 
 inline Query operator~(const Query& query){
-    return Query(std::make_shared<NotQuery>(NotQuery(query)));
+    return Query(std::make_shared<NotQuery>(query));
 }
 
 inline QueryResult NotQuery::eval(const TextQuery& textQuery) const {

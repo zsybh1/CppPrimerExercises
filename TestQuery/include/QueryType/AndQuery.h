@@ -18,7 +18,7 @@ public:
 };
 
 inline Query operator&(const Query& firstQuery, const Query& secondQuery){
-    return Query(std::make_shared<AndQuery>(AndQuery(firstQuery, secondQuery)));
+    return Query(std::make_shared<AndQuery>(firstQuery, secondQuery));
 }
 
 inline QueryResult AndQuery::eval(const TextQuery& textQuery) const {

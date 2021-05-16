@@ -18,7 +18,7 @@ public:
 };
 
 inline Query operator|(const Query& firstQuery, const Query& secondQuery){
-    return Query(std::make_shared<OrQuery>(OrQuery(firstQuery, secondQuery)));
+    return Query(std::make_shared<OrQuery>(firstQuery, secondQuery));
 }
 
 inline QueryResult OrQuery::eval(const TextQuery& textQuery) const {

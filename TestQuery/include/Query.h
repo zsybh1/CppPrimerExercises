@@ -8,7 +8,7 @@
 
 class Query{
 public:
-    explicit Query(const std::string& word) : mQuery(std::make_shared<WordQuery>(WordQuery(word))){};
+    explicit Query(const std::string& word) : mQuery(std::make_shared<WordQuery>(word)){};
     Query(std::shared_ptr<QueryBase> query) : mQuery(query){};
     QueryResult eval(const TextQuery& textQuery) const{
         return mQuery->eval(textQuery);

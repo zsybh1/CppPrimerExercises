@@ -18,6 +18,11 @@ int main() {
     tq.load(fin);
 
     Query query = Query("float") & ~Query("=") | Query("colored_sphere");
+    tq.show(cout, query.eval(tq));
 
+    cout << "========================================================" << endl;
+
+    Query qBool("bool");
+    query = query & qBool;
     tq.show(cout, query.eval(tq));
 }
